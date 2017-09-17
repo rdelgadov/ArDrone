@@ -1,0 +1,883 @@
+THERE_BE_DRAGONS_HERE
+Warning
+17 September 2017 6:48:14.094486 pm
+
+VM: unix - i686 - linux-gnu - CoInterpreter VMMaker.oscog-eem.2254 uuid: 4f2c2cce-f4a2-469a-93f1-97ed941df0ad Jul 20 2017
+StackToRegisterMappingCogit VMMaker.oscog-eem.2252 uuid: 2f3e9b0e-ecd3-4adf-b092-cce2e2587a5c Jul 20 2017
+VM: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $ Date: Thu Jul 20 12:42:21 2017 -0700 $ Plugins: 201707201942 https://github.com/OpenSmalltalk/opensmalltalk-vm.git $
+
+Image: Pharo6.0 [Latest update: #60510]
+
+MCMultiPackageLoader(Object)>>notify:
+	Receiver: a MCMultiPackageLoader
+	Arguments and temporary variables: 
+		aString: 	'This package depends on the following classes:
+  PPBenchmark
+  PP2Str...etc...
+	Receiver's instance variables: 
+		requirements: 	#(#PPBenchmark #PP2Strategy #PP2SourcesTest #PP2Benchmark #PP2IsN...etc...
+		unloadableDefinitions: 	a SortedCollection(a MCMethodDefinition(PP2Benchmark>>#b...etc...
+		obsoletions: 	a Dictionary()
+		additions: 	an OrderedCollection(a MCOrganizationDefinition(#(#PetitAnalyzer 'Pe...etc...
+		removals: 	an OrderedCollection(a MCOrganizationDefinition(#(#'PetitCompiler-Tes...etc...
+		errorDefinitions: 	nil
+		provisions: 	a Set(#OCClosureTests #OmFileStoreReadingError #MCVersionInfo #FTSt...etc...
+		methodAdditions: 	an OrderedCollection()
+
+
+MCMultiPackageLoader(MCPackageLoader)>>warnAboutDependencies
+	Receiver: a MCMultiPackageLoader
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		requirements: 	#(#PPBenchmark #PP2Strategy #PP2SourcesTest #PP2Benchmark #PP2IsN...etc...
+		unloadableDefinitions: 	a SortedCollection(a MCMethodDefinition(PP2Benchmark>>#b...etc...
+		obsoletions: 	a Dictionary()
+		additions: 	an OrderedCollection(a MCOrganizationDefinition(#(#PetitAnalyzer 'Pe...etc...
+		removals: 	an OrderedCollection(a MCOrganizationDefinition(#(#'PetitCompiler-Tes...etc...
+		errorDefinitions: 	nil
+		provisions: 	a Set(#OCClosureTests #OmFileStoreReadingError #MCVersionInfo #FTSt...etc...
+		methodAdditions: 	an OrderedCollection()
+
+
+MCMultiPackageLoader(MCPackageLoader)>>validate
+	Receiver: a MCMultiPackageLoader
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		requirements: 	#(#PPBenchmark #PP2Strategy #PP2SourcesTest #PP2Benchmark #PP2IsN...etc...
+		unloadableDefinitions: 	a SortedCollection(a MCMethodDefinition(PP2Benchmark>>#b...etc...
+		obsoletions: 	a Dictionary()
+		additions: 	an OrderedCollection(a MCOrganizationDefinition(#(#PetitAnalyzer 'Pe...etc...
+		removals: 	an OrderedCollection(a MCOrganizationDefinition(#(#'PetitCompiler-Tes...etc...
+		errorDefinitions: 	nil
+		provisions: 	a Set(#OCClosureTests #OmFileStoreReadingError #MCVersionInfo #FTSt...etc...
+		methodAdditions: 	an OrderedCollection()
+
+
+MCMultiPackageLoader(MCPackageLoader)>>loadWithNameLike:
+	Receiver: a MCMultiPackageLoader
+	Arguments and temporary variables: 
+		baseName: 	'PetitAnalyzer-JanKurs.49'
+	Receiver's instance variables: 
+		requirements: 	#(#PPBenchmark #PP2Strategy #PP2SourcesTest #PP2Benchmark #PP2IsN...etc...
+		unloadableDefinitions: 	a SortedCollection(a MCMethodDefinition(PP2Benchmark>>#b...etc...
+		obsoletions: 	a Dictionary()
+		additions: 	an OrderedCollection(a MCOrganizationDefinition(#(#PetitAnalyzer 'Pe...etc...
+		removals: 	an OrderedCollection(a MCOrganizationDefinition(#(#'PetitCompiler-Tes...etc...
+		errorDefinitions: 	nil
+		provisions: 	a Set(#OCClosureTests #OmFileStoreReadingError #MCVersionInfo #FTSt...etc...
+		methodAdditions: 	an OrderedCollection()
+
+
+MCVersionLoader>>basicLoadWithNameLike:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		aString: 	'PetitAnalyzer-JanKurs.49'
+		loader: 	a MCMultiPackageLoader
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+[ self basicLoadWithNameLike: aString ] in MCVersionLoader>>loadWithNameLike:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		aString: 	'PetitAnalyzer-JanKurs.49'
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+[ returnValue := aBlock value ] in [ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadStop: aString ] ] in MCVersionLoader>>announceLoad:do:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		aString: 	'PetitAnalyzer-JanKurs.49'
+		aBlock: 	[ self basicLoadWithNameLike: aString ]
+		returnValue: 	nil
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+BlockClosure>>ensure:
+	Receiver: [ returnValue := aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[ self announceLoadStop: aString ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	[ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadSto...etc...
+		startpc: 	54
+		numArgs: 	0
+
+
+[ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadStop: aString ] ] in MCVersionLoader>>announceLoad:do:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		aString: 	'PetitAnalyzer-JanKurs.49'
+		aBlock: 	[ self basicLoadWithNameLike: aString ]
+		returnValue: 	nil
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+BlockClosure>>ensure:
+	Receiver: [ self announceLoadStart: aString ]
+	Arguments and temporary variables: 
+		aBlock: 	[ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadStop: aSt...etc...
+		complete: 	true
+		returnValue: 	a MCVersionLoader
+	Receiver's instance variables: 
+		outerContext: 	MCVersionLoader>>announceLoad:do:
+		startpc: 	37
+		numArgs: 	0
+
+
+MCVersionLoader>>announceLoad:do:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		returnValue: 	nil
+		aString: 	'PetitAnalyzer-JanKurs.49'
+		aBlock: 	[ self basicLoadWithNameLike: aString ]
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+MCVersionLoader>>loadWithNameLike:
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		aString: 	'PetitAnalyzer-JanKurs.49'
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] in [ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] asJob
+	title: 'Loading ' , version info name asString;
+	run ] in MCVersionLoader>>load
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		version: 	a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKurs.49))
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+BlockClosure>>cull:
+	Receiver: [ self ensurePackage: version package.
+self loadWithNameLike: version info name ]
+	Arguments and temporary variables: 
+		anArg: 	a Job
+	Receiver's instance variables: 
+		outerContext: 	[ | version |
+version := versions first.
+[ self ensurePackage: ve...etc...
+		startpc: 	83
+		numArgs: 	0
+
+
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		block: 	[ self ensurePackage: version package.
+self loadWithNameLike: version in...etc...
+		currentValue: 	0
+		min: 	0
+		max: 	100
+		title: 	'Loading PetitAnalyzer-JanKurs.49'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during:
+	Receiver: a CurrentJob
+	Arguments and temporary variables: 
+		anObject: 	a Job
+		aBlock: 	[ ^ block cull: self ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	8
+
+
+BlockClosure>>ensure:
+	Receiver: [ activeProcess psValueAt: index put: anObject.
+aBlock value ]
+	Arguments and temporary variables: 
+		aBlock: 	[ activeProcess psValueAt: index put: oldValue ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	CurrentJob(DynamicVariable)>>value:during:
+		startpc: 	47
+		numArgs: 	0
+
+
+CurrentJob(DynamicVariable)>>value:during:
+	Receiver: a CurrentJob
+	Arguments and temporary variables: 
+		anObject: 	a Job
+		aBlock: 	[ ^ block cull: self ]
+		activeProcess: 	a Process in nil
+		oldValue: 	nil
+	Receiver's instance variables: 
+		index: 	8
+
+
+CurrentJob class(DynamicVariable class)>>value:during:
+	Receiver: CurrentJob
+	Arguments and temporary variables: 
+		anObject: 	a Job
+		aBlock: 	[ ^ block cull: self ]
+	Receiver's instance variables: 
+		superclass: 	DynamicVariable
+		methodDict: 	a MethodDictionary()
+		format: 	65537
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	nil
+		name: 	#CurrentJob
+		classPool: 	a Dictionary()
+		sharedPools: 	nil
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'Jobs-Base'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		soleInstance: 	a CurrentJob
+
+
+[ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		block: 	[ self ensurePackage: version package.
+self loadWithNameLike: version in...etc...
+		currentValue: 	0
+		min: 	0
+		max: 	100
+		title: 	'Loading PetitAnalyzer-JanKurs.49'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+BlockClosure>>ensure:
+	Receiver: [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ]
+	Arguments and temporary variables: 
+		aBlock: 	[ self cleanupAfterRunning ]
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	Job>>run
+		startpc: 	41
+		numArgs: 	0
+
+
+Job>>run
+	Receiver: a Job
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		block: 	[ self ensurePackage: version package.
+self loadWithNameLike: version in...etc...
+		currentValue: 	0
+		min: 	0
+		max: 	100
+		title: 	'Loading PetitAnalyzer-JanKurs.49'
+		children: 	an OrderedCollection()
+		isRunning: 	true
+		parent: 	nil
+		process: 	a Process in nil
+
+
+[ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] asJob
+	title: 'Loading ' , version info name asString;
+	run ] in MCVersionLoader>>load
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+		version: 	a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKurs.49))
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+BlockClosure>>ensure:
+	Receiver: [ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadW...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ self cacheActive: oldActive.
+self isCacheActive
+	ifFalse: [ self rese...etc...
+		complete: 	nil
+		returnValue: 	nil
+	Receiver's instance variables: 
+		outerContext: 	MCVersionLoader>>load
+		startpc: 	74
+		numArgs: 	0
+
+
+RPackageSet class>>withCacheDo:
+	Receiver: RPackageSet
+	Arguments and temporary variables: 
+		aBlock: 	[ | version |
+version := versions first.
+[ self ensurePackage: version ...etc...
+		oldActive: 	false
+	Receiver's instance variables: 
+		superclass: 	Object
+		methodDict: 	a MethodDictionary(#asRPackageSet->RPackageSet>>#asRPackageSet #cat...etc...
+		format: 	65546
+		layout: 	a FixedLayout
+		instanceVariables: 	nil
+		organization: 	a ClassOrganization
+		subclasses: 	{MetacelloTestsPackageSet}
+		name: 	#RPackageSet
+		classPool: 	a Dictionary()
+		sharedPools: 	an OrderedCollection()
+		environment: 	a SystemDictionary(lots of globals)
+		category: 	#'RPackage-Core'
+		traitComposition: 	{}
+		localSelectors: 	nil
+		cacheActive: 	true
+		cachePackages: 	an IdentityDictionary(#'Factorial-Language'->a RPackageSet #Peti...etc...
+
+
+MCVersionLoader>>load
+	Receiver: a MCVersionLoader
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		versions: 	an OrderedCollection(a MCVersion(a MCVersionInfo(PetitAnalyzer-JanKur...etc...
+
+
+MetacelloGoferLoad(GoferLoad)>>execute
+	Receiver: a MetacelloGoferLoad
+	Arguments and temporary variables: 
+
+	Receiver's instance variables: 
+		gofer: 	a MetacelloGofer
+		model: 	a MCVersionLoader
+
+
+[ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ] in [ | goferLoad loadBlock answers |
+goferLoad := MetacelloGoferLoad on: aGofer.
+answers := OrderedCollection new.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		| resolvedReference |
+		aGofer disablePackageCache.	"for good luck:)"
+		(resolvedReference := self
+			resolvePackageSpec: packageLoadDirective spec
+			gofer: aGofer) ~~ nil
+			ifTrue: [ goferLoad addResolved: resolvedReference.
+				answers addAll: packageLoadDirective spec answers.
+				packageLoadDirective resolvedReference: resolvedReference ] ].
+Transcript
+	cr;
+	show: 'Starting atomic load'.
+loadBlock := [ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ].
+answers notEmpty
+	ifTrue: [ loadBlock valueSupplyingMetacelloAnswers: answers ]
+	ifFalse: [ loadBlock value ].
+Transcript
+	cr;
+	show: 'Finished atomic load' ] in MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+	Receiver: a MetacelloLoadingMCSpecLoader
+	Arguments and temporary variables: 
+		pkgLoads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : PetitCSV-...etc...
+		aGofer: 	a MetacelloGofer
+		goferLoad: 	a MetacelloGoferLoad
+		loadBlock: 	[ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageL...etc...
+		answers: 	an OrderedCollection()
+	Receiver's instance variables: 
+		spec: 	a MetacelloMCVersionSpecLoader
+		operator: 	nil
+		loaderPolicy: 	a MetacelloLoaderPolicy
+		disablePackageCache: 	false
+
+
+[ | goferLoad loadBlock answers |
+goferLoad := MetacelloGoferLoad on: aGofer.
+answers := OrderedCollection new.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		| resolvedReference |
+		aGofer disablePackageCache.	"for good luck:)"
+		(resolvedReference := self
+			resolvePackageSpec: packageLoadDirective spec
+			gofer: aGofer) ~~ nil
+			ifTrue: [ goferLoad addResolved: resolvedReference.
+				answers addAll: packageLoadDirective spec answers.
+				packageLoadDirective resolvedReference: resolvedReference ] ].
+Transcript
+	cr;
+	show: 'Starting atomic load'.
+loadBlock := [ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ].
+answers notEmpty
+	ifTrue: [ loadBlock valueSupplyingMetacelloAnswers: answers ]
+	ifFalse: [ loadBlock value ].
+Transcript
+	cr;
+	show: 'Finished atomic load' ] in MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+	Receiver: a MetacelloLoadingMCSpecLoader
+	Arguments and temporary variables: 
+		pkgLoads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : PetitCSV-...etc...
+		aGofer: 	a MetacelloGofer
+		goferLoad: 	a MetacelloGoferLoad
+		loadBlock: 	[ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageL...etc...
+		answers: 	an OrderedCollection()
+	Receiver's instance variables: 
+		spec: 	a MetacelloMCVersionSpecLoader
+		operator: 	nil
+		loaderPolicy: 	a MetacelloLoaderPolicy
+		disablePackageCache: 	false
+
+
+IceMetacelloPharoPlatform(MetacelloPlatform)>>do:displaying:
+	Receiver: an IceMetacelloPharoPlatform
+	Arguments and temporary variables: 
+		aBlock: 	[ | goferLoad loadBlock answers |
+goferLoad := MetacelloGoferLoad on: a...etc...
+		aString: 	'Atomic Load...'
+	Receiver's instance variables: 
+		bypassProgressBars: 	false
+		bypassGoferLoadUpdateCategories: 	false
+
+
+MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+	Receiver: a MetacelloLoadingMCSpecLoader
+	Arguments and temporary variables: 
+		pkgLoads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : PetitCSV-...etc...
+		aGofer: 	a MetacelloGofer
+	Receiver's instance variables: 
+		spec: 	a MetacelloMCVersionSpecLoader
+		operator: 	nil
+		loaderPolicy: 	a MetacelloLoaderPolicy
+		disablePackageCache: 	false
+
+
+MetacelloAtomicLoadDirective>>finalizeLoad:
+	Receiver: atomic load : 0.6-baseline [ConfigurationOfPetitCompiler]
+	atomic load : 2.0 [Configuratio...etc...
+	Arguments and temporary variables: 
+		aGofer: 	a MetacelloGofer
+		pkgLoads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : PetitCSV-...etc...
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	a MetacelloFetchingMCSpecLoader(linear load : 
+	explicit load : 0.1-bas...etc...
+		loadDirectives: 	an OrderedCollection(atomic load : 2.0 [ConfigurationOfPetitPar...etc...
+		packageloads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : Petit...etc...
+		preloads: 	nil
+		postloads: 	nil
+
+
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadAtomicLoadDirective:gofer:
+	Receiver: linear load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+	linear load : 0.2-baseli...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	atomic load : 0.6-baseline [ConfigurationOfPetitCompiler]
+	at...etc...
+		aGofer: 	a MetacelloGofer
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	a MetacelloFetchingMCSpecLoader(linear load : 
+	explicit load : 0.1-bas...etc...
+		loadDirectives: 	an OrderedCollection(linear load : 0.2-baseline [ConfigurationO...etc...
+
+
+MetacelloAtomicLoadDirective>>loadUsing:gofer:
+	Receiver: atomic load : 0.6-baseline [ConfigurationOfPetitCompiler]
+	atomic load : 2.0 [Configuratio...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	linear load : 0.1-baseline [ConfigurationOfLiveRobotProgrammi...etc...
+		aGofer: 	a MetacelloGofer
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	a MetacelloFetchingMCSpecLoader(linear load : 
+	explicit load : 0.1-bas...etc...
+		loadDirectives: 	an OrderedCollection(atomic load : 2.0 [ConfigurationOfPetitPar...etc...
+		packageloads: 	an OrderedCollection(load : PetitAnalyzer-JanKurs.49 load : Petit...etc...
+		preloads: 	nil
+		postloads: 	nil
+
+
+[ :directive | directive loadUsing: aLoaderDirective gofer: aGofer ] in MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+	Receiver: linear load : 
+	explicit load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+		load ...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	linear load : 0.1-baseline [ConfigurationOfLiveRobotProgrammi...etc...
+		aGofer: 	a MetacelloGofer
+		directive: 	atomic load : 0.6-baseline [ConfigurationOfPetitCompiler]
+	atomic lo...etc...
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	nil
+		loadDirectives: 	an OrderedCollection(explicit load : 0.1-baseline [Configuratio...etc...
+
+
+OrderedCollection>>do:
+	Receiver: an OrderedCollection(linear load : 0.2-baseline [ConfigurationOfPetitSmalltalk]
+	explicit ...etc...
+	Arguments and temporary variables: 
+		aBlock: 	[ :directive | directive loadUsing: aLoaderDirective gofer: aGofer ]
+		index: 	3
+	Receiver's instance variables: 
+		array: 	an Array(linear load : 0.2-baseline [ConfigurationOfPetitSmalltalk]
+	exp...etc...
+		firstIndex: 	1
+		lastIndex: 	12
+
+
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+	Receiver: linear load : 
+	explicit load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+		load ...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	linear load : 0.1-baseline [ConfigurationOfLiveRobotProgrammi...etc...
+		aGofer: 	a MetacelloGofer
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	nil
+		loadDirectives: 	an OrderedCollection(explicit load : 0.1-baseline [Configuratio...etc...
+
+
+MetacelloLinearLoadDirective>>loadUsing:gofer:
+	Receiver: linear load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+	linear load : 0.2-baseli...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	linear load : 
+	explicit load : 0.1-baseline [ConfigurationOf...etc...
+		aGofer: 	a MetacelloGofer
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	a MetacelloFetchingMCSpecLoader(linear load : 
+	explicit load : 0.1-bas...etc...
+		loadDirectives: 	an OrderedCollection(linear load : 0.2-baseline [ConfigurationO...etc...
+
+
+[ :directive | directive loadUsing: aLoaderDirective gofer: aGofer ] in MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+	Receiver: linear load : 
+	explicit load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+		load ...etc...
+	Arguments and temporary variables: 
+		aLoaderDirective: 	linear load : 
+	explicit load : 0.1-baseline [ConfigurationOf...etc...
+		aGofer: 	a MetacelloGofer
+		directive: 	linear load : 0.1-baseline [ConfigurationOfLiveRobotProgramming]
+	li...etc...
+	Receiver's instance variables: 
+		spec: 	nil
+		loader: 	nil
+		loadDirectives: 	an OrderedCollection(explicit load : 0.1-baseline [Configuratio...etc...
+
+
+
+--- The full stack ---
+MCMultiPackageLoader(Object)>>notify:
+MCMultiPackageLoader(MCPackageLoader)>>warnAboutDependencies
+MCMultiPackageLoader(MCPackageLoader)>>validate
+MCMultiPackageLoader(MCPackageLoader)>>loadWithNameLike:
+MCVersionLoader>>basicLoadWithNameLike:
+[ self basicLoadWithNameLike: aString ] in MCVersionLoader>>loadWithNameLike:
+[ returnValue := aBlock value ] in [ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadStop: aString ] ] in MCVersionLoader>>announceLoad:do:
+BlockClosure>>ensure:
+[ [ returnValue := aBlock value ]
+	ensure: [ self announceLoadStop: aString ] ] in MCVersionLoader>>announceLoad:do:
+BlockClosure>>ensure:
+MCVersionLoader>>announceLoad:do:
+MCVersionLoader>>loadWithNameLike:
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] in [ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] asJob
+	title: 'Loading ' , version info name asString;
+	run ] in MCVersionLoader>>load
+BlockClosure>>cull:
+[ ^ block cull: self ] in [ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run
+[ activeProcess psValueAt: index put: anObject.
+aBlock value ] in CurrentJob(DynamicVariable)>>value:during:
+BlockClosure>>ensure:
+CurrentJob(DynamicVariable)>>value:during:
+CurrentJob class(DynamicVariable class)>>value:during:
+[ self prepareForRunning.
+CurrentJob value: self during: [ ^ block cull: self ] ] in Job>>run
+BlockClosure>>ensure:
+Job>>run
+[ | version |
+version := versions first.
+[ self ensurePackage: version package.
+self loadWithNameLike: version info name ] asJob
+	title: 'Loading ' , version info name asString;
+	run ] in MCVersionLoader>>load
+BlockClosure>>ensure:
+RPackageSet class>>withCacheDo:
+MCVersionLoader>>load
+MetacelloGoferLoad(GoferLoad)>>execute
+[ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ] in [ | goferLoad loadBlock answers |
+goferLoad := MetacelloGoferLoad on: aGofer.
+answers := OrderedCollection new.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		| resolvedReference |
+		aGofer disablePackageCache.	"for good luck:)"
+		(resolvedReference := self
+			resolvePackageSpec: packageLoadDirective spec
+			gofer: aGofer) ~~ nil
+			ifTrue: [ goferLoad addResolved: resolvedReference.
+				answers addAll: packageLoadDirective spec answers.
+				packageLoadDirective resolvedReference: resolvedReference ] ].
+Transcript
+	cr;
+	show: 'Starting atomic load'.
+loadBlock := [ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ].
+answers notEmpty
+	ifTrue: [ loadBlock valueSupplyingMetacelloAnswers: answers ]
+	ifFalse: [ loadBlock value ].
+Transcript
+	cr;
+	show: 'Finished atomic load' ] in MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+[ | goferLoad loadBlock answers |
+goferLoad := MetacelloGoferLoad on: aGofer.
+answers := OrderedCollection new.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		| resolvedReference |
+		aGofer disablePackageCache.	"for good luck:)"
+		(resolvedReference := self
+			resolvePackageSpec: packageLoadDirective spec
+			gofer: aGofer) ~~ nil
+			ifTrue: [ goferLoad addResolved: resolvedReference.
+				answers addAll: packageLoadDirective spec answers.
+				packageLoadDirective resolvedReference: resolvedReference ] ].
+Transcript
+	cr;
+	show: 'Starting atomic load'.
+loadBlock := [ "pkgLoads do: [:packageLoadDirective |  mcLoader preLoad: packageLoadDirective spec ]."
+goferLoad execute.
+pkgLoads
+	do: [ :packageLoadDirective | 
+		packageLoadDirective resolvedReference == nil
+			ifTrue: [ Transcript
+					cr;
+					tab;
+					show: 'Already Loaded -> ' , packageLoadDirective file ]
+			ifFalse: [ Transcript
+					cr;
+					tab;
+					show:
+						'Loaded -> ' , packageLoadDirective file , ' --- '
+							, packageLoadDirective repository repositoryDescription
+							, ' --- '
+							, packageLoadDirective resolvedReference repository description.
+				packageLoadDirective resolvedReference workingCopy repositoryGroup
+					addRepository: packageLoadDirective repository ] ].
+MetacelloPlatform current clearCurrentVersionCache	"pkgLoads do: [:packageLoadDirective | 
+					packageLoadDirective resolvedReference ~~ nil
+						ifTrue: [mcLoader postLoad: packageLoadDirective spec ]]" ].
+answers notEmpty
+	ifTrue: [ loadBlock valueSupplyingMetacelloAnswers: answers ]
+	ifFalse: [ loadBlock value ].
+Transcript
+	cr;
+	show: 'Finished atomic load' ] in MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+IceMetacelloPharoPlatform(MetacelloPlatform)>>do:displaying:
+MetacelloLoadingMCSpecLoader(MetacelloCommonMCSpecLoader)>>loadPackageDirectives:gofer:
+MetacelloAtomicLoadDirective>>finalizeLoad:
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadAtomicLoadDirective:gofer:
+MetacelloAtomicLoadDirective>>loadUsing:gofer:
+[ :directive | directive loadUsing: aLoaderDirective gofer: aGofer ] in MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+OrderedCollection>>do:
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+MetacelloLinearLoadDirective>>loadUsing:gofer:
+[ :directive | directive loadUsing: aLoaderDirective gofer: aGofer ] in MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+ - - - - - - - - - - - - - - -  
+			- - - - - - - - - - - - - - - - - -
+OrderedCollection>>do:
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadLinearLoadDirective:gofer:
+MetacelloLinearLoadDirective>>loadUsing:gofer:
+MetacelloLinearLoadDirective(MetacelloVersionLoadDirective)>>loadWithPolicy:
+MetacelloLoaderPolicy>>load
+MetacelloFetchingMCSpecLoader>>doLoad
+[ fetchLoader doLoad ] in [ | fetchLoader |
+fetchLoader := self
+	fetchRequiredFromArray: (self defaultPackageNamesToLoad: anArray).
+MetacelloPlatform current
+	do: [ fetchLoader doLoad ]
+	displaying: 'Loading ' , displayString.
+Transcript
+	cr;
+	show: '...finished ' , self versionNumber printString.
+^ fetchLoader ] in MetacelloMCVersion>>doLoadRequiredFromArray:
+IceMetacelloPharoPlatform(MetacelloPlatform)>>do:displaying:
+[ | fetchLoader |
+fetchLoader := self
+	fetchRequiredFromArray: (self defaultPackageNamesToLoad: anArray).
+MetacelloPlatform current
+	do: [ fetchLoader doLoad ]
+	displaying: 'Loading ' , displayString.
+Transcript
+	cr;
+	show: '...finished ' , self versionNumber printString.
+^ fetchLoader ] in MetacelloMCVersion>>doLoadRequiredFromArray:
+BlockClosure>>ensure:
+MetacelloMCVersion>>doLoadRequiredFromArray:
+MetacelloMCVersion>>load
+GoferMetacelloLoad>>loadConfiguration
+GoferMetacelloLoad>>execute
+Gofer>>execute:do:
+Gofer>>loadVersion:
+Gofer>>loadDevelopment
+UndefinedObject>>DoIt
+OpalCompiler>>evaluate
+RubSmalltalkEditor>>evaluate:andDo:
+RubSmalltalkEditor>>highlightEvaluateAndDo:
+[ textMorph textArea editor highlightEvaluateAndDo: ann action.
+textMorph shoutStyler style: textMorph text ] in [ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+RubEditingArea(RubAbstractTextArea)>>handleEdit:
+[ textMorph textArea
+	handleEdit: [ textMorph textArea editor highlightEvaluateAndDo: ann action.
+		textMorph shoutStyler style: textMorph text ] ] in GLMMorphicPharoScriptRenderer(GLMMorphicPharoCodeRenderer)>>actOnHighlightAndEvaluate:
+WorldState>>runStepMethodsIn:
+WorldMorph>>runStepMethods
+WorldState>>doOneCycleNowFor:
+WorldState>>doOneCycleFor:
+WorldMorph>>doOneCycle
+WorldMorph class>>doOneCycle
+[ [ WorldMorph doOneCycle.
+Processor yield.
+false ] whileFalse: [  ] ] in MorphicUIManager>>spawnNewProcess
+[ self value.
+Processor terminateActive ] in BlockClosure>>newProcess
+-------------------------------------------------------------------------------
+

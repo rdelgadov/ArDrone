@@ -1,0 +1,37 @@
+{
+	"instance" : {
+		"intersectionPointWithLine:" : " 3/24/2017 02:22:20",
+		"initializeWith:with:" : " 3/24/2017 02:22:20",
+		"alreadyExistIn:" : " 3/24/2017 02:22:20",
+		"has:" : " 3/24/2017 02:22:20",
+		"intersectionPointWithSegment:" : " 3/24/2017 02:22:20",
+		"extendWith:and:" : " 3/24/2017 02:22:20",
+		"hasOnLinePoint:" : "AlexandreBergel 3/31/2017 16:36",
+		"hasPoint:" : "AlexandreBergel 3/31/2017 16:36",
+		"dist:" : " 3/24/2017 02:22:20",
+		"cutWith:" : " 3/24/2017 02:22:20",
+		"isOnLineWith:" : " 3/24/2017 02:22:20",
+		"belowPoint:" : " 3/24/2017 02:22:20",
+		"intersect:" : " 3/24/2017 02:22:20",
+		"length" : " 3/24/2017 02:22:20",
+		"v1" : " 3/24/2017 02:22:20",
+		"hasOnLinePoint:withRespectTo:" : "AlexandreBergel 3/31/2017 16:36",
+		"extendSegmVert:to:" : " 3/24/2017 02:22:20",
+		"locationOf:" : " 3/24/2017 02:22:20",
+		"perpendicularBisector" : " 3/24/2017 02:22:20",
+		"vertices" : " 3/24/2017 02:22:20",
+		"asLine" : " 3/24/2017 02:22:20",
+		"hash" : " 3/24/2017 02:22:20",
+		"distTo:" : " 3/24/2017 02:22:20",
+		"boundBy:" : " 3/24/2017 02:22:20",
+		"hasOnLinePoint:withRespectTo:withApprox:" : "AlexandreBergel 3/31/2017 16:36",
+		"=" : " 3/24/2017 02:22:20",
+		"midPoint" : " 3/24/2017 02:22:20",
+		"intersectionPointWithRay:" : " 3/24/2017 02:22:20",
+		"printOn:" : " 3/24/2017 02:22:20",
+		"v2" : " 3/24/2017 02:22:20"
+	},
+	"class" : {
+		"with:with:" : " 3/24/2017 02:22:20"
+	}
+}

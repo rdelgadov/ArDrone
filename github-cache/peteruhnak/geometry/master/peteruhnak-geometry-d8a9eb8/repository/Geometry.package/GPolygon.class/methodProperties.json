@@ -1,0 +1,15 @@
+{
+	"instance" : {
+		"includesPoint:" : " 3/24/2017 02:22:20",
+		"intersectLineSegment:" : " 3/24/2017 02:22:20",
+		"vertices" : " 3/24/2017 02:22:20",
+		"edges" : " 3/24/2017 02:22:20",
+		"initializeVertices:" : " 3/24/2017 02:22:20",
+		"center" : " 3/24/2017 02:22:20",
+		"encompassingRectangle" : "AlexandreBergel 4/3/2017 18:46"
+	},
+	"class" : {
+		"newVertices:" : " 3/24/2017 02:22:20",
+		"convexHullOn:" : " 3/24/2017 02:22:20"
+	}
+}
