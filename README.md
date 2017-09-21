@@ -37,7 +37,7 @@ Ok, you have pass all the installation steps so now you can flight your ArDrone 
 * Click in Connect Buton.
 * If all is good, you will see a green circle and the battery level.
 * Now you can click in the button Take off and the Drone starts to flight. It's very important have a medium place to flight because if the Drone had damage, can be dangerous in a small place. 
-* Also you have the LRP UI, in this UI you can create state machines for the Drone. In this [Link](https://github.com/carolahp/ARDroneLRP-Tests) you have some examples to test.
+* Also you have the LRP UI, in this UI you can create state machines for the Drone. In this [Link](https://github.com/carolahp/ARDroneLRP-Tests) you have some examples to test, but the tag follower examples don't work, because they were create to used on a old version of API. 
 
 And that is all!, now you can flight your ArDrone 2.0 with Pharo and LRP, create and modify state machines for the drone.
 
