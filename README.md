@@ -29,11 +29,11 @@ To start using the Parrot ArDrone 2.0 with Pharo and LRP, you need to download a
 
 ### Usage
 
-Ok, you have pass all the installation steps so you can flight your ArDrone now following the next steps:
+Ok, you have pass all the installation steps so now you can flight your ArDrone following the next short steps:
 
-* Turn on your ArDrone, and then connect it with wifi.
+* Turn on your ArDrone and then connect it with wifi.
 * Open Live Robot Programming in the Pharo world menu and you will see the following image :
-![LRP drone connect](/img/LRPDroneConnection)
+![LRP drone connect](/img/LRPDroneConnection.png)
 * Click in Connect Buton.
 * If all is good, you will see a green circle and the battery level.
 * Now you can click in the button Take off and the Drone starts to flight. It's very important have a medium place to flight because if the Drone had damage, can be dangerous in a small place. 
