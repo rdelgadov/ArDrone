@@ -43,3 +43,6 @@ You have completed all the installation steps. Now you can fly your Drone follow
 And that's all!, now you can fly your Drone with Pharo and LRP, and also create and modify state machines for the Drone.
 
 **Important:** The video feature is not implemented in this tutorial so you will not see the drone camera, but it's coming on a next version!
+
+
+The ArDronePharo and LRPBridge-Ardrone were developed by Carolina Hernandez. You can find her thesis work in this [link](http://repositorio.uchile.cl/bitstream/handle/2250/143362/Plataforma-de-comunicaci%C3%B3n-entre-Live-Robot-Programming-y-el-Robot-AR.Drone-2.0.pdf?sequence=1)
